@@ -1,10 +1,10 @@
 # Data Science Final Project:
-## Employee_-Attrition_Analysis
+### Employee_-Attrition_Analysis
 
-## Course: Data Science with Python 2025 - 2026
-## Team Members:
-## Anastasia Sulukhia
-## Guga Gagloshvili
+### Course: Data Science with Python 2025 - 2026
+### Team Members:
+### Anastasia Sulukhia
+### Guga Gagloshvili
 
 ### Project Overview
 
