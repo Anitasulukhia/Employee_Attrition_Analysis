@@ -118,7 +118,7 @@ Contributions are documented in CONTRIBUTIONS.md
 
 After cleaning and preprocessing the data, exploratory analysis revealed clear patterns and correlations between key features and the target variable - Attrition. Several features showed strong influence, which guided feature selection for modeling.
 
-Two machine learning models were implemented and evaluated. The results showed that ____ outperformed ____ based on [accuracy / R² / MSE/F1], making it the most effective model for this task. Overall, the models achieved reliable performance, demonstrating that proper data preparation and feature selection significantly improve prediction quality.
+Two machine learning models were implemented and evaluated. The results showed that balanced random forest model,  outperformed logistic regression and xgboosr based on F1 score. making it the most effective model for this task. Overall, the models achieved reliable performance, demonstrating that proper data preparation and feature selection significantly improve prediction quality.
 
 This project successfully demonstrates a data science workflow, from raw data processing to model evaluation, and meets the objectives of the course.
 
