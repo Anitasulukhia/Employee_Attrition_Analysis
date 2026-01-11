@@ -1,0 +1,11 @@
+XGBoost - BALANCED
+F1 score: 0.782608695652174
+
+              precision    recall  f1-score   support
+
+       False       0.79      0.85      0.81        52
+        True       0.82      0.75      0.78        48
+
+    accuracy                           0.80       100
+   macro avg       0.80      0.80      0.80       100
+weighted avg       0.80      0.80      0.80       100

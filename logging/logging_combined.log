@@ -1,0 +1,39 @@
+2026-01-11 17:54:39,994 INFO [1105721058.py:12] Logger initialized successfully
+2026-01-11 17:54:40,027 INFO [3445598546.py:23] data successfully read from csv file
+initial data shape before cleaning: (1476, 35)
+
+2026-01-11 17:54:40,040 INFO [1062613668.py:25] after cleaning the data from nulls and making sure target column Attribition only contain valid values:
+yes or no, result dataset (1470, 35)
+2026-01-11 17:54:40,131 INFO [3316037333.py:22] successfully plot the distributon of target column, which turns out to be extremly imbalanced
+number of Yes in Attrition : 237, number of No in Attrition : 1233
+2026-01-11 17:54:40,140 INFO [984959683.py:21] succesfully converted columns to according data types
+2026-01-11 17:54:40,713 INFO [714151633.py:31] succesfully explored distribution of columns important in predictoin
+2026-01-11 17:54:42,390 INFO [325612301.py:60] Successfully computed correlations of numerical features.
+Top 5 features most strongly associated with attrition:
+Age                       NaN
+EnvironmentSatisfaction   NaN
+MonthlyIncome             NaN
+JobSatisfaction           NaN
+YearsAtCompany            NaN
+Name: Attrition, dtype: float64
+2026-01-11 17:54:42,499 INFO [1879252419.py:11] plotted past vs acrive employees by job satisfactionshowing more astisfaction with job -> less likely to leave
+2026-01-11 17:54:43,541 INFO [2839417173.py:30] we are discovering outliers in numerical features. most of them do not have outliers, but the ones with them we have left untouched.
+
+They are not errors - they are important edge cases model needs to learn.
+2026-01-11 17:54:43,547 INFO [842390008.py:5] we engineered new feature promotion rate, larger the rate, more often the employee is promoted
+2026-01-11 17:54:43,690 INFO [1491903776.py:3] Finished data cleaning and analysis, moving to Machine Learning
+
+2026-01-11 17:54:46,331 INFO [649908577.py:24] Data is ready for model evaluation
+2026-01-11 17:54:46,361 INFO [113037242.py:12] Logistic Regression evaluated on unbalanced data F1 score 0.4594594594594595
+2026-01-11 17:54:46,562 INFO [3076890347.py:16] Random Forest Classifier evaluated on unbalanced data F1 score 0.13793103448275862
+2026-01-11 17:54:46,586 INFO [3962657057.py:13] Logistic Regression evaluated with SMOTE F1 score 0.532258064516129
+2026-01-11 17:54:46,795 INFO [3962657057.py:31] Random Forest evaluated with class weights F1 score 0.10909090909090909
+2026-01-11 17:54:46,809 INFO [2526935460.py:22] The data was successfully downsampled for better evaluation
+2026-01-11 17:54:46,823 INFO [651322388.py:15] Logistic Regression evaluated on balanced data F1 score 0.7021276595744681
+2026-01-11 17:54:47,052 INFO [3340574264.py:16] Random Forest Classifier evaluated on balanced data F1 score 0.8
+2026-01-11 17:54:47,323 INFO [3665949674.py:17] XGBoost evaluated on unbalanced data F1 score 0.375
+2026-01-11 17:54:47,582 INFO [979865190.py:17] XGBoost evaluated on balanced data F1 score 0.782608695652174
+2026-01-11 17:54:47,592 INFO [1814503240.py:18] Logistic_Regression evaluated on balanced data F1 score 0.7021276595744681
+2026-01-11 17:54:47,609 INFO [1814503240.py:18] Random_Forest evaluated on balanced data F1 score 0.8
+2026-01-11 17:54:47,612 INFO [1814503240.py:18] XGBoost evaluated on balanced data F1 score 0.782608695652174
+

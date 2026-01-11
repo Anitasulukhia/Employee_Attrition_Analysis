@@ -1,0 +1,11 @@
+Logistic_Regression - BALANCED
+F1 score: 0.7021276595744681
+
+              precision    recall  f1-score   support
+
+       False       0.72      0.75      0.74        52
+        True       0.72      0.69      0.70        48
+
+    accuracy                           0.72       100
+   macro avg       0.72      0.72      0.72       100
+weighted avg       0.72      0.72      0.72       100
